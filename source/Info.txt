@@ -1,0 +1,10 @@
+Esta cosa requiere lo siguiente :
+
+Necesario para compilar :
+
+Haxe 4.3.2
+Flixel 5.5.0
+Lime 8.0.2
+OpenFL 9.2.2
+DiscordRPC 1.0.0
+Flixel-Addons 3.2.1
