@@ -131,11 +131,6 @@ class MenuState extends FlxState
 	{
 		super.update(elapsed);
 
-		if (FlxG.keys.justPressed.ALT)
-		{
-			FlxG.switchState(new DebugArea());
-		}
-
 		background.x -= backgroundSpeed;
 
 		if (background.x + background.width < FlxG.width)
@@ -163,8 +158,6 @@ class MenuState extends FlxState
 					FlxG.sound.play(AssetPaths.MenuSelect__ogg, 1, false);
 					switch (buttonsTest[i][1])
 					{
-						case 'PlayState':
-							FlxG.switchState(new PlayState());
 						case 'OptionsState':
 							FlxG.switchState(new OptionsState());
 						case 'LoadSubState':
